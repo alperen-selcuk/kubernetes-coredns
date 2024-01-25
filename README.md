@@ -19,7 +19,7 @@ data:
   devopsdude.forward: |-
     devops.alperen.com:53 {
       errors
-      forward . 10.232.3.4
+      forward . 10.200.12.10 <different dns server ip>
   }
 ```
 
