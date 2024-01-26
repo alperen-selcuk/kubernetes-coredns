@@ -107,4 +107,4 @@ data:
     import custom/*.server
 ```
 
-this Corfile like this. you need to import with wildcard to catch our custom records.
+like this Corefile you need to import to catch our custom records.
