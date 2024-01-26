@@ -69,6 +69,7 @@ data:
   devopsdude.override: |-
     hosts {
       10.10.10.10 web.alperen.com
+      23.23.23.23 test.alperen.com
     }
 ```
 
