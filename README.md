@@ -1,5 +1,8 @@
 # kubernetes-coredns
 
+![image](https://github.com/alperen-selcuk/kubernetes-coredns/assets/78741582/c6c232b6-2133-4937-8fa8-746418b0fb5b)
+
+
 you can manipulate coredns with configmap.
 
 coredns is the default dns solution for kubernetes cluster. all DNS request firstly going to throuh this resource.  first you need create custom configmap
