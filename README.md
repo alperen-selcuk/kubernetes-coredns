@@ -10,7 +10,9 @@ coredns is the default dns solution for kubernetes cluster. all DNS request firs
 
 ## forward domain zone
 
-you can send all queries for domain.
+you can send all queries for domain. 
+
+
 
 ```
 apiVersion: v1
@@ -26,6 +28,8 @@ data:
   }
 ```
 
+with this configuration all x.alperen.com DNS go to 10.200.12.10 DNS server
+
 ## override host
 
 you can add custom DNS record.
@@ -40,8 +44,13 @@ data:
   devopsdude.override: |-
     hosts {
       10.10.10.10 web.alperen.com
+      23.23.23.23 test.alperen.com
     }
 ```
+
+with this configuration you can add multiple host records.
+
+## both configuration
 
 you can use both config same configmap
 
